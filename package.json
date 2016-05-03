@@ -1,6 +1,6 @@
 {
   "name": "Quick-JavaScript",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "description": "A collection of commands and ES6 focused snippets for optimizing modern Javascript development productivity.",
   "homepage": "https://github.com/PombaM/atom-es6-javascript",
   "repository": {
