@@ -1,4 +1,5 @@
 # ES6 JavaScript
+A collection of snippets focused on optimizing modern Javascript development productivity.
 Write JavaScript quickly with over 150+ handy snippets. Fully ES6!
 Less typing more coding!
 
