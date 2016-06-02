@@ -1,7 +1,7 @@
 ".source.js":
   "console.log":
     prefix: 'cl'
-    body: "console.log('${0}')"
+    body: "console.log(${1})"
   "console.log (With body)":
     prefix: 'cll'
     body: "console.log('${1:title}', ${2});"
