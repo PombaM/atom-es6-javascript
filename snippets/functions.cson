@@ -12,9 +12,9 @@
   "immediately-invoked function expression":
     prefix: "iife"
     body: """
-    ((${1:args}) => {
+    (() => {
     \t${0}
-    })(${2});
+    })();
     """
   "function apply":
     prefix: "fa"
