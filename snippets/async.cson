@@ -1,31 +1,25 @@
 ".source.js":
   "Node callback":
     prefix: "cb"
-    body: "(err, ${1:value}) => {${0}}"
+    body: "(err, ${1:value}) => {\n\t$0\n}"
   "Promise":
-    prefix: "p",
+    prefix: "pr",
     body: """
-    new Promise((resolve, reject) => {
-    \t${0}
-    })
+    new Promise((resolve, reject) => {\n\t$1\n})
     """
   "Promise.then":
-    prefix: "then"
+    prefix: "prt"
     body: """
-    ${1:promise}.then((${2:value}) => {
-    \t${0}
-    });
+    ${1:promise}.then((${2:value}) => {\n\t$3\n});
     """
   "chain then":
-    prefix: ".th"
-    body: ".then((${1:value}) => {${0}})"
+    prefix: "th"
+    body: ".then((${1:value}) => {\n\t$1\n})"
   "Promise.catch":
-    prefix: "catch"
+    prefix: "prc"
     body: """
-    ${1:promise}.catch((${2:err}) => {
-    \t${0}
-    });
+    ${1:promise}.catch((${2:err}) => {\n\t$3\n});
     """
   "chain catch":
-    prefix: ".ca"
-    body: ".catch((${1:err}) => {${0}})"
+    prefix: "ch"
+    body: ".catch((${0:err}) => {\n\t$1\n})"
