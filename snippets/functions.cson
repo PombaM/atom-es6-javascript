@@ -1,10 +1,10 @@
 '.source.js':
   'Anonymous Function (ES6)':
-    prefix: 'f'
-    body: '(${}) => {\n\t$0\n}'
+    prefix: 'ff'
+    body: '(${0}) => {\n\t${1}\n}'
   'Anonymous Function':
-    prefix: 'f'
-    body: 'function($1) {\n\t$2\n}'
+    prefix: 'fff'
+    body: 'function(${1}) {\n\t${2}\n}'
   'Named Function':
     prefix: 'fn'
     body: '''

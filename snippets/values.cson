@@ -1,0 +1,13 @@
+'.source.js':
+  'Infinity':
+    prefix: 'infi'
+    body: 'Infinity'
+  'NaN':
+    prefix: 'NaN'
+    body: 'NaN'
+  'Undefined':
+    prefix: 'undefined'
+    body: 'undefined'
+  'Null':
+    prefix: 'null'
+    body: 'null'

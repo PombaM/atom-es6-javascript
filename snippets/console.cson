@@ -4,7 +4,7 @@
     body: 'console.log(${1})'
   'console.log (With body)':
     prefix: 'cll'
-    body: 'console.log('${1:title}', ${2});'
+    body: "console.log('${1:title}', ${2});"
   'console.error':
     prefix: 'ce'
     body: 'console.error(${0});'

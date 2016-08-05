@@ -1,25 +1,10 @@
 '.source.js':
-  'String':
-    prefix: 'S'
-    body: 'String'
-  'Number':
-    prefix: 'N'
-    body: 'Number'
-  'Object':
-    prefix: 'O'
-    body: 'Object'
   'Array':
     prefix: 'A'
     body: 'Array'
-  'Date':
-    prefix: 'D'
-    body: 'Date'
-  'RegExp':
-    prefix: 'Rx'
-    body: 'RegExp'
-  'typeof':
+  'Typeof':
     prefix: 'ty'
     body: '''typeof ${1}'''
-  'instanceof':
+  'Instanceof':
     prefix: 'iof'
     body: '${1:source} instanceof ${2:Object}'

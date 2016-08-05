@@ -1,0 +1,37 @@
+'.source.js':
+  'eval':
+    prefix: 'eval'
+    body: 'eval(${0})'
+  'uneval':
+    prefix: 'uneval'
+    body: 'uneval(${0})'
+  'isFinite':
+    prefix: 'isFinite'
+    body: 'isFinite(${0})'
+  'isNaN':
+    prefix: 'isNaN'
+    body: 'isNaN(${0})'
+  'parseInt':
+    prefix: 'parseInt'
+    body: 'parseInt(${0})'
+  'parseFloat':
+    prefix: 'parseFloat'
+    body: 'parseFloat(${0})'
+  'decodeURI':
+    prefix: 'decodeURI'
+    body: 'decodeURI(${0})'
+  'decodeURIComponent':
+    prefix: 'decodeURIComponent'
+    body: 'decodeURIComponent(${0})'
+  'encodeURI':
+    prefix: 'encodeURI'
+    body: 'encodeURI(${0})'
+  'encodeURIComponent':
+    prefix: 'encodeURIComponent'
+    body: 'encodeURIComponent(${0})'
+  'escape':
+    prefix: 'escape'
+    body: 'escape(${0})'
+  'unescape':
+    prefix: 'unescape'
+    body: 'unescape(${0})'

@@ -1,0 +1,37 @@
+'.source.js':
+  'Object':
+    prefix: 'O'
+    body: 'Object'
+  'Function':
+    prefix: 'F'
+    body: 'Function'
+  'Boolean':
+    prefix: 'bool'
+    body: 'Boolean'
+  'Symbol':
+    prefix: 'Sy'
+    body: 'Symbol'
+  'Error':
+    prefix: 'Er'
+    body: 'Error'
+  'EvalError':
+    prefix: 'Eve'
+    body: 'EvalError'
+  'InternalError':
+    prefix: 'Ier'
+    body: 'InternalError'
+  'RangeError':
+    prefix: 'Rer'
+    body: 'RangeError'
+  'ReferenceError':
+    prefix: 'Rfer'
+    body: 'ReferenceError'
+  'SyntaxError':
+    prefix: 'Syer'
+    body: 'SyntaxError'
+  'TypeError':
+    prefix: 'Tyer'
+    body: 'TypeError'
+  'URIError':
+    prefix: 'Urer'
+    body: 'URIError'

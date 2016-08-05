@@ -1,0 +1,43 @@
+'.source.js':
+  'Set':
+    prefix: 'set'
+    body: 'new Set(${0:[iterable]})'
+  'WeakSet':
+    prefix: 'weakset'
+    body: 'new WeakSet(${0:[iterable]}'
+  'Map':
+    prefix: 'mapp'
+    body: 'new Map(${0:[iterable]}'
+  'WeakMap':
+    prefix: 'weakmap'
+    body: 'new WeakMap(${0:[iterable]}'
+  'add (map/set)':
+    prefix: 'add'
+    body: 'add(${0})'
+  'clear (map/set)':
+    prefix: 'clear'
+    body: 'clear()'
+  'delete (map/set)':
+    prefix: 'delete'
+    body: 'delete(${0:key})'
+  'entries (map/set)':
+    prefix: 'entries'
+    body: 'entries()'
+  'get (map/set)':
+    prefix: 'get'
+    body: 'get(${0:key})'
+  'keys (map/set)':
+    prefix: 'keys'
+    body: 'keys()'
+  'has (map/set)':
+    prefix: 'has'
+    body: 'has(${0:key})'
+  'set (map/set)':
+    prefix: 'sett'
+    body: 'set(${1:key}, ${2:value})'
+  'size (map/set)':
+    prefix: 'size'
+    body: 'size'
+  'values (map/set)':
+    prefix: 'values'
+    body: 'values()'
