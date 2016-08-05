@@ -1,22 +1,22 @@
-".source.js":
-  "var statement":
-    prefix: "v"
-    body: "var ${1:name};"
-  "var assignment":
-    prefix: "ve"
-    body: "var ${1:name} = ${2:value};"
-  "let statement":
-    prefix: "l"
-    body: "let ${1:name};"
-  "let assignment":
-    prefix: "le"
-    body: "let ${1:name} = ${2:value};"
-  "const statement":
-    prefix: "co"
-    body: "const ${1:name};"
-  "const assignment":
-    prefix: "coe"
-    body: "const ${1:name} = ${2:value};"
-  "const symbol":
-    prefix: "cos"
-    body: "const ${1:name} = Symbol('${1:name}');"
+'.source.js':
+  'var statement':
+    prefix: 'v'
+    body: 'var ${1:name};'
+  'var assignment':
+    prefix: 've'
+    body: 'var ${1:name} = ${2:value};'
+  'let statement':
+    prefix: 'l'
+    body: 'let ${1:name};'
+  'let assignment':
+    prefix: 'le'
+    body: 'let ${1:name} = ${2:value};'
+  'const statement':
+    prefix: 'co'
+    body: 'const ${1:name};'
+  'const assignment':
+    prefix: 'coe'
+    body: 'const ${1:name} = ${2:value};'
+  'const symbol':
+    prefix: 'cos'
+    body: 'const ${1:name} = Symbol('${1:name}');'

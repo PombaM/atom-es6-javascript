@@ -1,16 +1,16 @@
-".source.js":
-  "require":
-    prefix: "re"
-    body: "require('${1:module}');"
-  "exports.member":
-    prefix: "em"
-    body: "exports.${1:member} = ${2:value};"
-  "module.exports":
-    prefix: "me"
-    body: "module.exports = ${1:name};"
-  "module as class":
-    prefix: "mc"
-    body: """
+'.source.js':
+  'require':
+    prefix: 're'
+    body: 'require('${1:module}');'
+  'exports.member':
+    prefix: 'em'
+    body: 'exports.${1:member} = ${2:value};'
+  'module.exports':
+    prefix: 'me'
+    body: 'module.exports = ${1:name};'
+  'module as class':
+    prefix: 'mc'
+    body: '''
     var ${1:name} = (()=> {
     \tfunction ${1:name}(${2:args}) {
     \t\t${0}
@@ -19,4 +19,4 @@
     })();
 
     module.exports = ${1:name};
-    """
+    '''

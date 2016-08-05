@@ -1,25 +1,25 @@
-".source.js":
-  "console.log":
+'.source.js':
+  'console.log':
     prefix: 'cl'
-    body: "console.log(${1})"
-  "console.log (With body)":
+    body: 'console.log(${1})'
+  'console.log (With body)':
     prefix: 'cll'
-    body: "console.log('${1:title}', ${2});"
-  "console.error":
-    prefix: "ce"
-    body: "console.error(${0});"
-  "console.warn":
-    prefix: "cw"
-    body: "console.warn(${0});"
-  "console.info":
-    prefix: "ci"
-    body: "console.info(${0});"
-  "console.trace":
-    prefix: "ct"
-    body: "console.trace(${0});"
-  "console.time":
-    prefix: "cti"
-    body: "console.time(${0});"
-  "console.timeEnd":
-    prefix: "cte"
-    body: "console.timeEnd(${0});"
+    body: 'console.log('${1:title}', ${2});'
+  'console.error':
+    prefix: 'ce'
+    body: 'console.error(${0});'
+  'console.warn':
+    prefix: 'cw'
+    body: 'console.warn(${0});'
+  'console.info':
+    prefix: 'ci'
+    body: 'console.info(${0});'
+  'console.trace':
+    prefix: 'ct'
+    body: 'console.trace(${0});'
+  'console.time':
+    prefix: 'cti'
+    body: 'console.time(${0});'
+  'console.timeEnd':
+    prefix: 'cte'
+    body: 'console.timeEnd(${0});'

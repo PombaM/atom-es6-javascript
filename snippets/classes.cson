@@ -1,27 +1,27 @@
-".source.js":
-  "class":
-    prefix: "c"
-    body: """
+'.source.js':
+  'class':
+    prefix: 'c'
+    body: '''
     class ${1:name} {
     \tconstructor(${2:args}) {
     \t\t${0}
     \t}
     }
-    """
-  "class extends":
-    prefix: "cex"
-    body: """
+    '''
+  'class extends':
+    prefix: 'cex'
+    body: '''
     class ${1:name} extends ${2:base} {
     \tconstructor(${3:args}) {
     \t\tsuper(${3:args})
     \t\t${0}
     \t}
     }
-    """
-  "class function":
-    prefix: "cf"
-    body: """
+    '''
+  'class function':
+    prefix: 'cf'
+    body: '''
     ${1:name} (${2:args}) {
     \t${0}
     }
-    """
+    '''

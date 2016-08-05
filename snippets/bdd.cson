@@ -1,50 +1,50 @@
-".source.js":
-  "describe":
-    prefix: "desc"
-    body: """
+'.source.js':
+  'describe':
+    prefix: 'desc'
+    body: '''
     describe('${1:description}', () => {
     \t${0}
     });
-    """
-  "it asynchronous":
-    prefix: "ita"
-    body: """
+    '''
+  'it asynchronous':
+    prefix: 'ita'
+    body: '''
     it('${1:description}', (done) => {
     \t${0}
     });
-    """
-  "it synchronous":
-    prefix: "its"
-    body: """
+    '''
+  'it synchronous':
+    prefix: 'its'
+    body: '''
     it('${1:description}', () => {
     \t${0}
     });
-    """
-  "before":
-    prefix: "bef"
-    body: """
+    '''
+  'before':
+    prefix: 'bef'
+    body: '''
     before(() => {
     \t${0}
     });
-    """
-  "beforeEach":
-    prefix: "befe"
-    body: """
+    '''
+  'beforeEach':
+    prefix: 'befe'
+    body: '''
     beforeEach(() => {
     \t${0}
     });
-    """
-  "after":
-    prefix: "aft"
-    body: """
+    '''
+  'after':
+    prefix: 'aft'
+    body: '''
     after(() => {
     \t${0}
     });
-    """
-  "afterEach":
-    prefix: "afte"
-    body: """
+    '''
+  'afterEach':
+    prefix: 'afte'
+    body: '''
     afterEach(() => {
     \t${0}
     });
-    """
+    '''
