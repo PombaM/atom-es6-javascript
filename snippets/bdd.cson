@@ -2,49 +2,49 @@
   'describe':
     prefix: 'desc'
     body: '''
-    describe('${1:description}', () => {
-    \t${0}
-    });
-    '''
-  'it asynchronous':
-    prefix: 'ita'
-    body: '''
-    it('${1:description}', (done) => {
+    describe('${1:description}', function() {
     \t${0}
     });
     '''
   'it synchronous':
     prefix: 'its'
     body: '''
-    it('${1:description}', () => {
+    it('${1:description}', function() {
+    \t${0}
+    });
+    '''
+  'it asynchronous':
+    prefix: 'ita'
+    body: '''
+    it('${1:description}', function(done) {
     \t${0}
     });
     '''
   'before':
     prefix: 'bef'
     body: '''
-    before(() => {
+    before(function() {
     \t${0}
     });
     '''
   'beforeEach':
     prefix: 'befe'
     body: '''
-    beforeEach(() => {
+    beforeEach(function() {
     \t${0}
     });
     '''
   'after':
     prefix: 'aft'
     body: '''
-    after(() => {
+    after(function() {
     \t${0}
     });
     '''
   'afterEach':
     prefix: 'afte'
     body: '''
-    afterEach(() => {
+    afterEach(function() {
     \t${0}
     });
     '''
