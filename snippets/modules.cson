@@ -4,10 +4,10 @@
     body: 'export ${1:member};'
   'import module':
     prefix: 'im'
-    body: 'import ${1:*} from '${2:module}';'
+    body: "import ${1:*} from '${2:module}";
   'import module as':
     prefix: 'ima'
-    body: 'import ${1:*} as ${2:name} from '${3:module}';'
+    body: "import ${1:*} as ${2:name} from '${3:module}";
   'import module named':
     prefix: 'imn'
-    body: 'import \{ ${1:name} \} from '${2:module}';'
+    body: "import \{ ${1:name} \} from '${2:module}";

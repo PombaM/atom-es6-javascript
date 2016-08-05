@@ -8,16 +8,16 @@
     '''
   'getElementById':
     'prefix': 'gi'
-    'body': '${1:document}.getElementById('${2:id}')'
+    'body': "${1:document}.getElementById('${2:id}')"
   'getElementsByClassName':
     'prefix': 'gc'
-    'body': 'Array.from(${1:document}.getElementsByClassName('${2:class}'))'
+    'body': "Array.from(${1:document}.getElementsByClassName('${2:class}'))"
   'getElementsByTagName':
     'prefix': 'gt'
-    'body': 'Array.from(${1:document}.getElementsByTagName('${2:tag}'))'
+    'body': "Array.from(${1:document}.getElementsByTagName('${2:tag}'))"
   'querySelector':
     'prefix': 'qs'
-    'body': '${1:document}.querySelector('${2:selector}')'
+    'body': "${1:document}.querySelector('${2:selector}')"
   'querySelectorAll':
     'prefix': 'qsa'
-    'body': 'Array.from(${1:document}.querySelectorAll('${2:selector}'))'
+    'body': "Array.from(${1:document}.querySelectorAll('${2:selector}'))"

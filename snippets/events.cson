@@ -8,4 +8,4 @@
     '''
   'chain event handler':
     prefix: '.on'
-    body: '.on('${2:event}', (${3:args}) => {\n\t${0}\n})'
+    body: ".on('${2:event}', (${3:args}) => {\n\t${0}\n})"
