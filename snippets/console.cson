@@ -11,3 +11,15 @@
   "console.warn":
     prefix: "cw"
     body: "console.warn(${0});"
+  "console.info":
+    prefix: "ci"
+    body: "console.info(${0});"
+  "console.trace":
+    prefix: "ct"
+    body: "console.trace(${0});"
+  "console.time":
+    prefix: "cti"
+    body: "console.time(${0});"
+  "console.timeEnd":
+    prefix: "cte"
+    body: "console.timeEnd(${0});"
