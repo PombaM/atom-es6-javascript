@@ -1,3 +1,11 @@
+### 1.2.0 - Package Maintenance
+* Package re-organized
+* Added function properties
+* Added fundamental objects
+* Added keyed collections
+* Added values
+* Updated console
+
 ### 0.5.3 - Package Maintenance
 * Double quotes removed
 
