@@ -1,0 +1,7 @@
+'.source.js':
+  'JSON parse':
+    prefix: 'JSONp'
+    body: 'JSON.parse(${0})'
+  'JSON stringify':
+    prefix: 'JSONs'
+    body: 'JSON.stringify(${0})'

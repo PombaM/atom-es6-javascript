@@ -1,9 +1,9 @@
 '.source.js':
   'Number':
-    prefix: 'Num'
+    prefix: 'number'
     body: 'Number'
   'Date':
-    prefix: 'Date'
+    prefix: 'date'
     body: 'Date'
   'Math':
     prefix: 'math'
