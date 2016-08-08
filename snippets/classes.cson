@@ -21,7 +21,7 @@
   'class function':
     prefix: 'cf'
     body: '''
-    ${1:name} (${2:args}) {
+    ${1:name}(${2:args}) {
     \t${0}
     }
     '''

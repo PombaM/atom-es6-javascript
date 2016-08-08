@@ -4,13 +4,13 @@
     body: 'new Set(${0:[iterable]})'
   'WeakSet':
     prefix: 'weakset'
-    body: 'new WeakSet(${0:[iterable]}'
-  'Map':
+    body: 'new WeakSet(${0:[iterable]})'
+  'Map (new Map)':
     prefix: 'mapp'
-    body: 'new Map(${0:[iterable]}'
+    body: 'new Map(${0:[iterable]})'
   'WeakMap':
     prefix: 'weakmap'
-    body: 'new WeakMap(${0:[iterable]}'
+    body: 'new WeakMap(${0:[iterable]})'
   'add (map/set)':
     prefix: 'add'
     body: 'add(${0})'

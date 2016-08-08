@@ -4,4 +4,4 @@
     body: "'use strict';"
   'Debugger':
     prefix: 'debug'
-    body: 'debugger'
+    body: "debugger"
