@@ -8,7 +8,10 @@
     body: "debugger"
   'Arguments':
     prefix: 'args'
-    body: 'arguments'
+    body: "arguments"
   'toJSON':
     prefix: 'toJSON'
-    body: 'toJSON(${0})'
+    body: 'toJSON()'
+  'yield':
+    prefix: 'yield'
+    body: 'yield${0}'
