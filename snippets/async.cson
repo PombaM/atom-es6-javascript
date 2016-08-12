@@ -14,7 +14,7 @@
     '''
   'chain then':
     prefix: 'th'
-    body: '.then((${1:value}) => {\n\t$1\n})'
+    body: '.then((${0:value}) => {\n\t$1\n})'
   'Promise.catch':
     prefix: 'prc'
     body: '''

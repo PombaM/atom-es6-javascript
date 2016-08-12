@@ -14,4 +14,4 @@
     body: 'toJSON()'
   'yield':
     prefix: 'yield'
-    body: 'yield${0}'
+    body: 'yield ${0}'

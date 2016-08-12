@@ -1,4 +1,7 @@
 '.source.js':
+  'expect to':
+    prefix: 'ext'
+    body: 'expect(${1:actual}).to.${2:expected}'
   'expect equal':
     prefix: 'exe'
     body: 'expect(${1:actual}).to.equal(${2:expected});'
